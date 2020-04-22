@@ -16,8 +16,8 @@ const router = new VueRouter({
 router.beforeEach((to,from,next) => {
   // console.log(to)
   // console.log('++++++++')
-  next()
-  document.title = to.matched[0].meta.title
+  // next()
+  // document.title = to.matched[0].meta.title
 })
 
 //后置钩子(hook)
